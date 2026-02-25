@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  webapp:
+    image: saikiranmara/dockerweb-app:1.0
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MESSAGE=Hello Sai! Running via Docker Compose 🚀
